@@ -1,0 +1,379 @@
+.header {
+	background: #333333;
+	position: fixed;
+	width: 100%;
+	height: 46px;
+	z-index: 100;
+}
+
+.header-inner {
+	display: flex;
+	width: 1240px;
+	height: 46px;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.header-logo {
+	justify-content: center;
+	align-items: center;
+	height: 46px;
+}
+
+.logo-icon {
+	display: none;
+    background-image: url('/static/image/logo_image.svg');
+	background-repeat: no-repeat;
+	background-position-x: 12px;
+	background-position-y: 11px;
+	background-size: 48px 22px;
+	color: transparent;
+	width: 69px;
+	height: 46px;
+	margin-right: unset;
+}
+
+.logo-wordmark {
+	display: block;
+	font-size: 0px;
+	background-image: url("/static/image/logo_image.svg");
+	background-repeat: no-repeat;
+    background-position-x: 12px;
+    background-position-y: 11px;
+	background-size: 48px 22px;
+	background-color: #111111;
+	color: transparent;
+	width: 184px;
+	height: 100%;
+}
+
+.header-contents {
+	height: 46px;
+}
+
+.header-contents-list > li {
+    float: left;
+    position: relative;
+}
+
+.header-contents-item {
+	display: block;
+    padding: 12px 0;
+    height: 46px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 104px;
+    border-right: 1px solid #111;
+}
+
+.header-contents-item.selected {
+	outline: 0;
+    color: #fff!important;
+    background-color: #111;
+    border-bottom: none;
+}
+
+.header-contents-home {
+	background-color: #111111;
+}
+
+.header-middle {
+	flex: 1;
+}
+
+.header-search-container {
+	min-width: 112px;
+}
+
+.header-search-container > form {
+	position: relative;
+	padding: 9px 10px 8px;
+}
+
+.header-search-input {
+	width: 100%;
+	height: 28px;
+	color: #666;
+    font-family: "Interstate","Lucida Grande","Lucida Sans Unicode","Lucida Sans","Garuda",Verdana,Tahoma,sans-serif;
+	font-size: 14px;
+    outline: 0;
+    border: 0;
+    padding: 5px 7px;
+    background: #e5e5e5;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+.header-search-icon {
+	position: absolute;
+	background: url(https://a-v2.sndcdn.com/assets/images/search-dbfe5cbb.svg) 0 0 no-repeat;
+    width: 15px;
+    height: 15px;
+    right: 20px;
+    top: 15px;
+	border: 0;
+    padding: 0;
+	font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+}
+
+.header-login {
+	padding: 9px 10px 10px;
+}
+
+.button-sign-in {
+	border-color: #666;
+	background-color: initial;
+	color: #fff;
+	float: left;
+	margin-right: 10px;
+	width: fit-content;
+	height: 26px;
+	padding: 2px 11px 2px 10px;
+	border: 1px solid #e5e5e5;
+	border-radius: 3px;
+	font-size: 14px;
+    line-height: 20px;
+    white-space: nowrap;
+    font-family: "Interstate","Lucida Grande","Lucida Sans Unicode","Lucida Sans","Garuda",Verdana,Tahoma,sans-serif;
+    font-weight: 100;
+    text-align: center;
+    vertical-align: initial;
+}
+
+.button-sign-up {
+	height: 26px;
+	margin-left: 9px;
+	padding: 2px 11px 2px 10px;
+	background-color: #f50;
+	border: 1px solid #e5e5e5;
+    border-color: #f50;
+	border-radius: 3px;
+    color: #fff;
+	font-size: 14px;
+    line-height: 20px;
+    white-space: nowrap;
+    font-family: "Interstate","Lucida Grande","Lucida Sans Unicode","Lucida Sans","Garuda",Verdana,Tahoma,sans-serif;
+    font-weight: 100;
+    text-align: center;
+    vertical-align: initial;
+	
+}
+
+.header-upload {
+	padding: 12px 10px;
+}
+
+.header-upload > a {
+	align-items: center;
+}
+
+.header-nav {
+	width: 46px;
+	height: 46px;
+}
+
+.header-nav > a{
+	display: block;
+	width: 46px;
+	height: 46px;
+    border: 0;
+    margin-left: 0;
+    padding: 0;
+    background: url(/static/image/menu.svg) 50% 50% no-repeat;
+	opacity: .75;
+	font: 0/0 a;
+}
+
+.container {
+	width: 1180px;
+	padding: 0 30px;
+	padding-top: 46px;
+	margin: 0 auto;
+	background: #fff;
+	padding-bottom: 75px;
+}
+
+.contents {
+	padding-top: 30px;
+}
+
+.fluid {
+	position: relative;
+}
+
+.playlist {
+	padding-right: 30px;
+	margin-right: 330px;
+	border-right: 1px solid #f2f2f2;
+}
+
+.playlist > article {
+	border-bottom: 1px solid #f2f2f2;
+	margin-bottom: 34px;
+}
+
+.title-description {
+	margin-bottom: 24px;
+}
+
+.title {
+	font-size: 24px;
+    font-weight: 100;
+	font-family: "Interstate","Lucida Grande","Lucida Sans Unicode","Lucida Sans","Garuda",Verdana,Tahoma,sans-serif;
+	line-height: 1.3;
+}
+
+.description {
+	font-weight: 100;
+    color: #999;
+	margin-top: 5px;
+	font-family: "Interstate","Lucida Grande","Lucida Sans Unicode","Lucida Sans","Garuda",Verdana,Tahoma,sans-serif;
+	font-size: 14px;
+}
+
+.gallery {
+	display: flex;
+	margin-top: -5px;
+    padding: 5px 0 0;
+}
+
+.gallery-item {
+	width: 23%;
+	padding-right: 20px;
+}
+
+.item-info {
+	width: 100%;
+	padding-bottom: 78px;
+	position: relative;
+}
+
+.item-artwork {
+	width: 100%;
+	height: 100%;
+}
+
+.gallery-img {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	padding-top: 100%;
+    height: 0;
+    position: relative;
+    z-index: 2;
+	background-image: url("/static/image/gallery_img.jpg");
+	background-size: cover;
+}
+
+.item-description {
+	width: 100%;
+    z-index: 1;
+	position: absolute;
+    padding-top: 100%;
+    top: 6px;
+}
+
+.gallery-title {
+	color: #000;
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+.gallery-class {
+	font-weight: 100;
+    color: #999;
+}
+
+.sidebar {
+	position: absolute;
+    bottom: 0;
+    right: 0;
+	top: 0px;
+    width: 300px;
+}
+
+.stream-sidebar {
+	position: fixed;
+}
+
+.sidebar-module {
+	margin-bottom: 0;
+	border-bottom: none;
+}
+
+.sidebar-header {
+	display: flex;
+	height: 30px;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: 100;
+	color: #999;
+	border-bottom: 1px solid #f2f2f2;
+}
+
+.sidebar-content {
+	padding-top: 5px;
+}
+
+.mobile-app-buttons {
+	padding: 10px 0 15px;
+}
+
+.appstore-button {
+	border: 0;
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+    background-color: initial;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	float: left;
+	margin-right: 8px;
+	width: 120px;
+	background-image: url(https://a-v2.sndcdn.com/assets/images/appstore_badge@en-9e7292e6.png);
+}
+
+.googleplay-button {
+	float: left;
+	margin-right: 8px;
+	width: 135px;
+    background-image: url(https://a-v2.sndcdn.com/assets/images/google_play_badge@en-51d52194.png);
+	height: 40px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+	border: 0;
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+    background-color: initial;
+}
+
+.footer {
+	border-top: 1px solid #f2f2f2;
+	position: relative;
+	font-size: 12px;
+	padding: 11px 0;
+	padding-bottom: 80px;
+	color: #ccc;
+}
+
+.link-light {
+	color: #999;
+}
+
+.footer-locale {
+	margin-top: 5px;
+}
+
+.locale {
+	color: #38d;
+	text-decoration: none;
+}
+
+.language {
+	color: #333;
+}
